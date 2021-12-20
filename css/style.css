@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.margin {
+    margin-left: 20px;
+}
+
+.griglia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; 
+    margin-top: 50px;
+}
+
+.cella {
+    border: 1px grey solid;
+    width: calc(100%/10);
+    height: 120px;
+}
+
+.blue {
+    background-color: blue;
+}
